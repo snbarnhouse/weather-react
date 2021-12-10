@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import Weather from "./Weather";
 
@@ -10,6 +9,16 @@ function App() {
         <h1>Weather Search</h1>
         <Weather />
       </header>
+      <footer>
+        <a
+          href="https://github.com/snbarnhouse/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open Source
+        </a>{" "}
+        Code by Stephanie Barnhouse
+      </footer>
     </div>
   );
 }
